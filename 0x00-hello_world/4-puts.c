@@ -1,6 +1,8 @@
 #include <stdio.h>
+
 int main(void)
  {
-	puts (""Programming is like building a multinigual puzzle");
-	return 0;
+	 char Mystr [] = "Programming is like building a multinigual puzzle";
+ 	 puts(Mystr);
+	 return 0;
 }
