@@ -1,6 +1,9 @@
 #include <stdio.h>
-
-int main(void) // main = main function
+/*
+ * main = main function
+ * return = return value
+ */
+int main(void)
 {
 	char Mystr [] = ""Programming is like building a multinigual puzzle";
 	puts(Mystr);
