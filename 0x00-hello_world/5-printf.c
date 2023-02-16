@@ -1,8 +1,10 @@
 #include<stdio.h>
-int main(void) /*a void main function
-	       */
+/**
+ * a void main function
+ */
+int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art, \n");
+	printf(stderr, "with proper grammar, but the outcome is a piece of art, ");
 
 	return (0);
 }
