@@ -10,19 +10,12 @@
 
 int _abs(int n)
 {
-	int a = 1 * n;
-	int b = -1 * n;
-
-	if (n > 0)
+	if (n >= 0)
 	{
-		_putchar('0' + a);
+		return (n);
 	}
-	else 
+	else
 	{
-		_putchar('0' + b);
+		return (-1 * n);
 	}
-	_putchar('\n');
-	return (0);
-
 }
-
