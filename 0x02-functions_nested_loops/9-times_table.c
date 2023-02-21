@@ -18,11 +18,25 @@ void times_table(void)
 		{
 			int z = (x * y);
 
-			_putchar((z / 10) + '0');
-			_putchar((z % 10) + '0');
-			_putchar(',');
-			_putchar(' ');
+			if (y == 0)
+			{
+				_putchar(z + '0');
+			}
+			if ((z < 10) && (y != 0))
+			{
+				_putchar(',');
+				_putchar(' ');
+				_putchar(' ');
+				_putchar(z + '0');
+			}
+			else if (z >= 10)
+			{
+				_putchar(',');
+				_putchar(' ');
+				_putchar((z / 10) + '0');
+				_putchar((z % 10) + '0');
 			y++;
+			}
 		}
 		_putchar('\n');
 		x++;
