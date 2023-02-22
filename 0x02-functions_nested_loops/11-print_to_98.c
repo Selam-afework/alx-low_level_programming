@@ -2,12 +2,10 @@
 
 /**
  * print_to_98 - prints all natural numbers from n to 98
- *
+ * prints inputed number 
  * @n: number to be printed
- *
- * return: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
-
 void print_to_98(int n)
 
 {
