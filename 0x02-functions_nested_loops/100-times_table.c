@@ -13,7 +13,7 @@ void print_times_table(int n)
 	{
 		int p = n;
 
-		for (p = 0; p++)
+		for (p = 0; p <= n; p++)
 		{
 			int z = (n * p);
 
