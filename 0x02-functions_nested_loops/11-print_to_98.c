@@ -4,7 +4,7 @@
 /**
  * print_to_98 - prints all natural numbers from n to 98
  * @n: print from this number
- * iReturn: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 void print_to_98(int n)
 {
@@ -29,7 +29,7 @@ void print_to_98(int n)
 			if (j != 98)
 			printf("%d, ", j);
 			else if (j == 98)
-			iprintf("%d\n", j);
+			printf("%d\n", j);
 		}
 	}
 }
