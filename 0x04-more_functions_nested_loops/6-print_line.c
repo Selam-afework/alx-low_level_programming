@@ -9,14 +9,11 @@
  */
 void print_line(int n)
 {
-	n = 0;
-	if (n > 0)
+	int k;
+
+	for (k = 0; k < n; k++)
 	{
 		_putchar(95);
-		n--;
 	}
-	else if (n <= 0)
-	{
-		_putchar(10);
-	}
+	_putchar(10);
 }
