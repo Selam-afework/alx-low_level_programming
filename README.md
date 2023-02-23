@@ -1,1 +1,1 @@
-functions and nested loop
+more functions & more loop excercises
