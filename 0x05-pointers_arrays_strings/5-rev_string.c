@@ -17,10 +17,9 @@ void rev_string(char *s)
 	{
 	}
 
-	int z;
-
 	for (n = p - 1; n >= 0; n--)
 	{
+		int z; 
 		z = (s[n]);
 	}
 }
