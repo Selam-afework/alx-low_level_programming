@@ -11,8 +11,10 @@
 void puts2(char *str)
 {
 	char *ptr = str;
+	
+	int i = 0;
 
-	while (*ptr != '\0')
+	while (str[i] != '\0')
 	{
 		_putchar(*ptr);
 		ptr += 2;
