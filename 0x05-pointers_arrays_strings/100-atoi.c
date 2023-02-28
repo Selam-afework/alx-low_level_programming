@@ -15,10 +15,9 @@ int _atoi(char *s)
 
 	int num = 0;
 
-	for (i = 0; s[i] != '\0'; i++)
+	for (i = 0; s[i] >= '0' && s[i] <= '9'; i++)
 	{
-		num = num * 10 + (s[i] - 48);
+		num = num * 10 + (s[i] - '0');
 	}
-	printf("%d\n", num);
-	return ( );
+	return (num);
 }
