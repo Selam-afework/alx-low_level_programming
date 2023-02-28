@@ -20,4 +20,5 @@ int _atoi(char *s)
 		num = num * 10 + (s[i] - 48);
 	}
 	printf("%d\n", num);
+	return ( );
 }
