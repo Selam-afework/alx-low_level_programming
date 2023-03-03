@@ -7,7 +7,7 @@
  *
  * @s2: string no two
  *
- * return: 0
+ * Return: comp.
  */
 
 int _strcmp(char *s1, char *s2)
