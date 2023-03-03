@@ -9,8 +9,7 @@
  *
  * @n: an integer
  *
- * Result: dest
- *
+ * Return: dest.
  *
  */
 
