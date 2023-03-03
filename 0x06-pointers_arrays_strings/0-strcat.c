@@ -7,7 +7,7 @@
  *
  * @src: string number two
  *
- * return: dest
+ * Return: dest.
  */
 
 char *_strcat(char *dest, char *src)
