@@ -5,7 +5,7 @@
  *
  * @s: string to be capitalized
  *
- * return: s capitalized word
+ * Return: string
  */
 
 char *cap_string(char *s)
