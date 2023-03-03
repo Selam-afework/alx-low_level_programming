@@ -11,25 +11,19 @@
  *
  */
 
-int base10(int n)
-{
-	int base = 10;
-
-	while (n > 0)
-	{
-		base *= 10;
-		n--;
-	}
-	return (base);
-}
-
-/**
- * print_number - prints integers enters as parameters using putchar
- * @n: integer to print
- * Return: void
- */
 void print_number(int n)
 {
+	int base10(int n)
+	{
+        	int base = 10;
+
+        	while (n > 0)
+        	{
+                	base *= 10;
+                	n--;
+        	}
+        	return (base);
+	}
 	int power;
 
 	power = base10(8);
