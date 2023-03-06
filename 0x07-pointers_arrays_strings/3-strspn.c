@@ -6,7 +6,7 @@
  * @s: intial segment
  * @accept: bytes
  *
- * return: length of occurence
+ * Return: c.
  */
 
 unsigned int _strspn(char *s, char *accept)
