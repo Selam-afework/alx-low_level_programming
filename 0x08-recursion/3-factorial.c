@@ -5,7 +5,7 @@
  *
  * @n: input number
  *
- * return: n factorial
+ * Return: factorial recursion
  */
 
 int factorial(int n)
