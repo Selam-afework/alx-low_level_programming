@@ -3,24 +3,6 @@
 #include "main.h"
 
 /**
- * _strlen - calculate and return length of string
- *
- * @string: string
- *
- * Return: string length
- */
-
-int _strlen(char *string)
-{
-	int i;
-
-	for (i = 0; string[i] != '\0'; i++)
-	{
-		return (i);
-	}
-}
-
-/**
  * string_nconcat - concatenates two strings
  *
  * @s1: string 1
@@ -34,12 +16,15 @@ int _strlen(char *string)
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	char *ptr;
+	char *ptr, *string;
 
 	int num, len, i, j;
 
 	num = n;
-
+	for (i = 0; string[i] != '\0'; i++)
+        {
+                return (i);
+        }
 	if (s1 == NULL) /* null string */
 	{
 		s1 = "";
