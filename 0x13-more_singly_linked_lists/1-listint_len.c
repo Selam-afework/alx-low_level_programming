@@ -2,13 +2,13 @@
 #include <stdio.h>
 
 /**
- * print_listint - prints all the element
+ * listint_len - returns the no of elements in a linked listint_t
  *
  * @h: pointer to the list
- * Return: the number of nodes
+ * Return: no of elements in the link
  */
 
-size_t print_listint(const listint_t *h)
+size_t listint_len(const listint_t *h)
 {
 	size_t d;
 
@@ -18,13 +18,10 @@ size_t print_listint(const listint_t *h)
 	{
 		if (h != NULL)
 		{
-			printf("%d\n", h->n);
+			h = h->next;
 		}
-
-		h = h->next;
-
 		d++;
-
+		
 	}
 	return (d);
 }
