@@ -11,11 +11,9 @@ void print_binary(unsigned long int n)
 {
 	int x, y, z;
 	
-	x = 31;
-
 	y = 0;
 
-	while (x >= 0)
+	for (x = 10; x >= 0; x--)
 	{
 		z = n >> x;
 
@@ -28,6 +26,5 @@ void print_binary(unsigned long int n)
 		{
 			_putchar(48);
 		}
-		x--;
 	}
 }
