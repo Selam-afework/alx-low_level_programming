@@ -10,7 +10,7 @@
 void print_binary(unsigned long int n)
 {
 	int x, y, z;
-	
+
 	y = 0;
 
 	for (x = 10; x >= 0; x--)
@@ -22,9 +22,13 @@ void print_binary(unsigned long int n)
 			_putchar(49);
 			y++;
 		}
-		else
+		else if (y)
 		{
 			_putchar(48);
 		}
+	}
+	if (!y)
+	{
+		_putchar(48);
 	}
 }
