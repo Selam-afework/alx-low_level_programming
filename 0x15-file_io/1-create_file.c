@@ -12,11 +12,10 @@
 int create_file(const char *filename, char *text_content)
 {
 	int O, W, Z = 0;
-	
-	O = open(filename, O_CREAT | O_RDWR| O_TRUNC, 0600);
 
-	W = write(O, text_content, Z);	
+	O = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
 
+	W = write(O, text_content, Z);
 	if (filename == NULL)
 	{
 		return (-1);
@@ -33,7 +32,7 @@ int create_file(const char *filename, char *text_content)
 	{
 		return (-1);
 	}
-	close (O);
+	close(O);
 
 	return (1);
 }
