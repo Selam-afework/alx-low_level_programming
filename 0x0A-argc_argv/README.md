@@ -1,1 +1,1 @@
-argc argv
+exercise on command line arguments

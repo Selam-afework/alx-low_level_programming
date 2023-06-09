@@ -1,21 +1,22 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
- * main - to print its name
+ * main- function that prints the program name
  *
- * @argc: argument count
- * @argv: argument vector
+ * @argc: no of arguments
+ * @argv: command line argument
  *
  * Return: 0
  */
 
 int main(int argc, char *argv[])
 {
-	int i;
+	printf("%s\n", argv[0]);
 
-	for (i = 0; i < argc; i++)
+	if (argc > 1)
 	{
-		printf("%s\n", argv[i]);
+		printf("\nNo Extra Command Line Argument Passed Other Than Program Name");
 	}
 	return (0);
 }
