@@ -1,1 +1,0 @@
-making pointers and arrays
